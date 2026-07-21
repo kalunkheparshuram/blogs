@@ -52,11 +52,11 @@ application.
 ## Common Command Separators
 On Linux and Unix-like systems, commonly encountered shell operators
 include:
-``` 
-;
+```
 &&
 ||
 |
+;
 ```
 For example:
 ```
