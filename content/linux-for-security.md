@@ -31,13 +31,11 @@ Operating system information can often be found using:
 ```
 cat /etc/os-release
 ```
-
 ## Current Directory
 ```
 pwd
 ```
 List files:
-
 ```
 ls
 ```
@@ -45,14 +43,12 @@ Include hidden files and additional information:
 ```
 ls -la
 ```
-
 ## Navigating Directories
 ```
 cd /path/to/directory
 cd ..
 cd ~
 ```
-
 ## Reading Files
 ```
 cat filename.txt
@@ -60,12 +56,10 @@ less filename.txt
 head filename.txt
 tail filename.txt
 ```
-
 Follow a changing log file:
 ```
 tail -f logfile.log
 ```
-
 ## Searching Files
 Find files by name:
 ```
@@ -79,7 +73,6 @@ Recursive search:
 ```
 grep -R "text" /path/
 ```
-
 ## Processes
 View running processes:
 ```
@@ -89,7 +82,6 @@ Another useful tool is:
 ```
 top
 ```
-
 ## Network Interfaces
 ```
 ip addr
@@ -98,17 +90,14 @@ or:
 ```
 ip a
 ```
-
 Display routing information:
 ```
 ip route
 ```
-
 ## Listening Ports
 ```
 ss -tulpn
 ```
-
 Understanding the relationship is important:
 ```
 Process
@@ -121,26 +110,21 @@ Port
    ↓
 Network
 ```
-
 ## File Permissions
 ```
 ls -l
 ```
-
 A result might look like:
 ```
 -rwxr-xr-- 1 user user 1024 file.sh
 ```
-
 The basic permission types are:
 ```
 r = read
 w = write
 x = execute
 ```
-
 Permissions apply to the owner, group, and others.
-
 ## Pipes
 A pipe sends the output of one command into another:
 ```
@@ -156,7 +140,6 @@ grep nginx
    ↓
 filtered output
 ```
-
 ## Redirection
 Overwrite a file:
 ```
@@ -164,6 +147,7 @@ echo "hello" > test.txt
 ```
 
 Append to a file:
+
 ```
 echo "world" >> test.txt
 ```
