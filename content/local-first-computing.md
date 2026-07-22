@@ -2,7 +2,7 @@
 ---
 slug: local-first-computing
 title: Why I Believe in Local-First Computing
-date: 2026-07-22
+date: 2026-07-23
 tags: self-hosting, privacy, homelab, local-first, open-source
 ---
 
