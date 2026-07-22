@@ -1,4 +1,3 @@
-
 ---
 slug: local-first-computing
 title: Why I Believe in Local-First Computing
