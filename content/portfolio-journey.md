@@ -89,5 +89,4 @@ Every blog post, every project, every experiment, and every improvement is anoth
 The best portfolios are never truly finished. They simply become a better reflection of the person building them.
 
 ---
-
 *Thanks for visiting my portfolio. More projects, research, and technical articles will be added as the journey continues.*
