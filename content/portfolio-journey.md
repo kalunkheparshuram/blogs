@@ -20,11 +20,11 @@ This portfolio serves as a central place to showcase:
 - Photography gallery
 - Skills and certifications
 - Professional journey
+
 Every section has a purpose and will continue to evolve as I gain more experience.
 
 ## Technologies Used
-This website is intentionally lightweight and built using modern web fundamentals.
-
+This website is intentionally lightweight and built using modern web fundamentals.  
 Current stack:
 - HTML5
 - CSS3
@@ -33,17 +33,18 @@ Current stack:
 - GitHub
 - GitHub Pages
 - jsDelivr CDN
+
 No heavy frameworks or unnecessary dependencies—just fast, maintainable code.
 
 ## Dynamic Content
-One of the goals for this website was to make content management simple.
-
+One of the goals for this website was to make content management simple.  
 Instead of editing HTML every time I publish something new:
 - Blog posts are written in Markdown.
 - Images are hosted in GitHub repositories.
 - Projects are managed through JavaScript.
 - GitHub APIs fetch content dynamically.
 - jsDelivr serves static assets through a global CDN.
+
 This allows the website to grow without becoming difficult to maintain.
 
 ## Sections of the Portfolio
@@ -58,6 +59,7 @@ The website currently includes:
 ## Design Philosophy
 The design follows a simple principle:
 > Remove everything that distracts from the content.
+
 Instead of excessive animations or complex interfaces, I focused on:
 - Clean typography
 - Fast loading
@@ -65,11 +67,11 @@ Instead of excessive animations or complex interfaces, I focused on:
 - Minimal distractions
 - Easy navigation
 - Readable content
+
 The goal is to let the work speak for itself.
 
 ## What's Next?
-This portfolio is not a finished product.
-
+This portfolio is not a finished product.  
 Future improvements include:
 - More technical blog posts
 - Bug bounty write-ups
@@ -78,6 +80,7 @@ Future improvements include:
 - Better search and filtering
 - Dark mode enhancements
 - Performance optimizations
+
 Like every good project, it will continue to evolve over time.
 
 ## Final Thoughts

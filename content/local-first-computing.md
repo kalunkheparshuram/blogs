@@ -7,12 +7,11 @@ tags: self-hosting, privacy, homelab, local-first, open-source
 
 # Why I Believe in Local-First Computing
 The internet has become the default place to store our files, conversations, photos, notes, and even our development environments. While cloud services offer convenience, they also introduce trade-offs involving privacy, ownership, recurring costs, and long-term control.
-Recently, I've become increasingly interested in **local-first computing**—building personal infrastructure that gives me greater control over my own data and workflows.
+Recently, I've become increasingly interested in ***local-first computing***—building personal infrastructure that gives me greater control over my own data and workflows.
 
 ## What Is Local-First Computing?
 Local-first computing is the idea that your own machine or home server should be the primary place where your data lives.
-Instead of relying entirely on third-party cloud platforms, you host the services you use yourself while retaining ownership of your data.
-
+Instead of relying entirely on third-party cloud platforms, you host the services you use yourself while retaining ownership of your data.  
 Examples include:
 - Personal cloud storage
 - Local AI models
@@ -21,13 +20,13 @@ Examples include:
 - Git repositories
 - Knowledge bases
 - Media servers
-- Development environments
-The goal is not to reject the cloud completely, but to reduce unnecessary dependence on it.
+- Development environments  
+
+The goal is not to reject the cloud completely, but to reduce unnecessary dependence on it.  
 
 ## Recreating Parts of the Internet
 One idea I find particularly fascinating is building local alternatives to services we use every day.
-Many internet services can be replicated using open-source software running on your own hardware.
-
+Many internet services can be replicated using open-source software running on your own hardware.  
 Examples include:
 - A personal Git server instead of relying entirely on hosted platforms
 - A private cloud storage solution for documents and backups
@@ -37,14 +36,16 @@ Examples include:
 - A self-hosted dashboard for monitoring services
 - Local DNS and network utilities
 - Development environments running entirely within a homelab
-The objective is not to copy the internet—it is to build a personal ecosystem that serves your own needs.
+
+The objective is not to copy the internet—it is to build a personal ecosystem that serves your own needs.  
 
 ## Why This Matters
-Owning the infrastructure changes the way you think.
-Instead of asking:
-> "Which service should I sign up for?"
-You begin asking:
-> "Can I build or host this myself?"
+Owning the infrastructure changes the way you think.  
+Instead of asking:  
+> "Which service should I sign up for?"  
+
+You begin asking:  
+> "Can I build or host this myself?"  
 
 That shift encourages learning in areas such as:
 - Linux administration
@@ -57,18 +58,19 @@ That shift encourages learning in areas such as:
 - Backups
 - Security
 - Automation
-Each service becomes an opportunity to understand how modern systems actually work.
+
+Each service becomes an opportunity to understand how modern systems actually work.  
 
 ## Privacy Through Ownership
-Privacy is not achieved simply by using encrypted applications.
-
+Privacy is not achieved simply by using encrypted applications.  
 Privacy also comes from understanding:
 - Where your data is stored
 - Who has access to it
 - How it is backed up
 - How it is encrypted
 - How long it is retained
-- Who ultimately controls it
+- Who ultimately controls it 
+
 Hosting your own services gives you significantly more visibility into these questions.
 Self-hosting also comes with responsibilities, including keeping systems updated, configuring security correctly, and maintaining reliable backups.
 
@@ -90,7 +92,8 @@ Over time, I want to build a personal digital ecosystem that includes:
 7. Security monitoring
 8. Automated backups
 9. Network services
-10. Experimentation environments for learning
+10. Experimentation environments for learning  
+
 Each project adds another piece to a system that I completely understand and control.
 
 ## Final Thoughts
@@ -99,5 +102,4 @@ Self-hosting is not just about saving money or protecting privacy—it is about 
 The internet is an incredible resource. Building your own small part of it is an even better teacher.
 
 ---
-
 *This article reflects my interest in local-first computing, self-hosting, and building personal infrastructure using open-source software. As I continue experimenting, I'll document what works, what doesn't, and what I learn along the way.*
