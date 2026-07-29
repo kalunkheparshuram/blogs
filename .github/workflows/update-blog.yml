@@ -1,0 +1,58 @@
+name: Update Blog
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+
+  blog:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - run: node scripts/generate-posts.js
+
+      - uses: actions/checkout@v5
+        with:
+          repository: kalunkheparshuram/kalunkheparshuram.github.io
+          token: ${{ secrets.PORTFOLIO_TOKEN }}
+          path: portfolio
+
+      - run: cp posts.json portfolio/posts.json
+
+      - name: Commit posts.json
+
+        env:
+          TOKEN: ${{ secrets.PORTFOLIO_TOKEN }}
+
+        run: |
+
+          cd portfolio
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add posts.json
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Auto update posts"
+
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/kalunkheparshuram/kalunkheparshuram.github.io.git
+
+          git push origin main
