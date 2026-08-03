@@ -99,7 +99,7 @@ Each project adds another piece to a system that I completely understand and con
 ## Final Thoughts
 Technology becomes far more interesting when you move from being only a consumer of services to becoming the operator of your own infrastructure.
 Self-hosting is not just about saving money or protecting privacy—it is about learning how modern systems are built, connected, maintained, and secured.
-The internet is an incredible resource. Building your own small part of it is an even better teacher.
+The internet is an incredible resource. Building your own small part of it is an even better teacher.  
   
 ---
 *This article reflects my interest in local-first computing, self-hosting, and building personal infrastructure using open-source software. As I continue experimenting, I'll document what works, what doesn't, and what I learn along the way.*
