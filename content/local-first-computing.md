@@ -83,16 +83,16 @@ AI is a powerful assistant—but not a substitute for engineering judgment.
 
 ## My Long-Term Vision
 Over time, I want to build a personal digital ecosystem that includes:
-1. A secure homelab
-2. Self-hosted development tools
-3. Local AI assistants
-4. Personal cloud storage
-5. Private Git hosting
-6. Documentation and knowledge management
-7. Security monitoring
-8. Automated backups
-9. Network services
-10. Experimentation environments for learning  
+- A secure homelab
+- Self-hosted development tools
+- Local AI assistants
+- Personal cloud storage
+- Private Git hosting
+- Documentation and knowledge management
+- Security monitoring
+- Automated backups
+- Network services
+- Experimentation environments for learning  
 
 Each project adds another piece to a system that I completely understand and control.
 
